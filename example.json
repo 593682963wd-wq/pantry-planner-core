@@ -1,0 +1,38 @@
+{
+  "pantry": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "name": "Synthetic A",
+      "category": "pantry",
+      "quantity": 3,
+      "unit": "item",
+      "expiresInDays": 2,
+      "note": "Synthetic fixture",
+      "isStaple": false
+    }
+  ],
+  "recipes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "name": "Synthetic Recipe",
+      "subtitle": "Synthetic test only",
+      "minutes": 1,
+      "serves": 1,
+      "accentHex": "224433",
+      "requiredIngredients": [
+        {
+          "name": "Synthetic A",
+          "amount": 1,
+          "unit": "item",
+          "aisle": "dryGoods",
+          "isOptional": false
+        }
+      ],
+      "optionalIngredients": [],
+      "steps": [
+        "Synthetic step"
+      ],
+      "leftoverNote": ""
+    }
+  ]
+}
